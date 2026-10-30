@@ -1418,3 +1418,108 @@ a {
     transition: none;
   }
 }
+
+/* FINISHING: ACCESSIBILITY & RESPONSIVE POLISH */
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  padding: 10px 14px;
+  background: var(--orange);
+  color: #080808;
+  font: 11px var(--mono);
+  text-decoration: none;
+  transform: translateY(-160%);
+  transition: transform .2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:where(a, button):focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 4px;
+}
+
+.topbar nav a,
+.contact-bottom nav a {
+  padding-block: 8px;
+}
+
+.project-card > a,
+.contact-links a {
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 1001px) {
+  .topbar {
+    position: sticky;
+    top: 0;
+  }
+
+  .hero {
+    min-height: clamp(560px, 47vw, 680px);
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-card > a {
+    margin-top: auto;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .topbar nav {
+    box-shadow: 0 18px 35px rgb(0 0 0 / 35%);
+  }
+
+  .topbar nav a {
+    font-size: 12px;
+  }
+
+  .hero {
+    min-height: 0;
+  }
+
+  .hero-content {
+    padding-block: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-content {
+    padding-block: 32px 12px;
+  }
+
+  .hero-art {
+    max-width: 420px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .about,
+  .skills,
+  .projects,
+  .experience,
+  .achievement,
+  .contact {
+    scroll-margin-top: 72px;
+  }
+
+  .contact-bottom > small {
+    font-size: 7px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skip-link {
+    transition: none;
+  }
+}
