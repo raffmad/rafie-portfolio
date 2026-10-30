@@ -1,24 +1,496 @@
 <!doctype html>
 <html lang="id">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Portofolio Rafie Ahmad Anwari — Mahasiswa Teknik Informatika dan pengembang web, aplikasi, serta IoT.">
   <meta name="theme-color" content="#090909">
+
   <title>Rafie Ahmad Anwari — Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
 <div class="grain" aria-hidden="true"></div>
-<header class="topbar"><a class="logo" href="#home">RA</a><nav id="nav"><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#skills">What I Can Do</a><a href="#projects">Projects</a><a href="#experience">Achievement</a><a href="#contact">Contact</a></nav><span class="location">BASED IN<br><b>SIDOARJO, INDONESIA</b></span><button class="menu" aria-label="Buka menu" aria-expanded="false">☰</button></header>
+
+<header class="topbar">
+  <a class="logo" href="#home">RA</a>
+
+  <nav id="nav">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">What I Can Do</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Achievement</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <span class="location">
+    BASED IN<br>
+    <b>SIDOARJO, INDONESIA</b>
+  </span>
+
+  <button class="menu" aria-label="Buka menu" aria-expanded="false">☰</button>
+</header>
+
 <main class="layout">
-  <section class="hero panel" id="home"><div class="hero-top"><span>PORTFOLIO / 2026</span><span>INFORMATICS STUDENT</span></div><div class="hero-content"><div class="hero-copy"><p class="eyebrow">↳ HELLO, I'M</p><h1>RAFIE<br>AHMAD<br>ANWARI<span class="slash">/</span></h1><h2>Mahasiswa Teknik Informatika</h2><p class="intro">Saya tertarik pada pengembangan teknologi untuk menciptakan solusi yang berdampak, khususnya di bidang web, mobile, dan IoT.</p><a class="round-link" href="#about"><span>↗</span> Jelajahi Portofolio</a></div><div class="hero-art" aria-label="Komposisi visual arsitektur abstrak"><div class="art-orbit"></div><div class="art-shape shape-a"></div><div class="art-shape shape-b"></div><div class="art-photo photo-one"></div><div class="art-photo photo-two"></div><div class="orange-block"></div><div class="code-mark">&lt;/&gt;</div><div class="art-caption">CODE<br>BUILD<br>IMPROVE</div></div></div><div class="hero-bottom"><span>SCROLL</span><span class="line"></span><span>01 / 07</span></div></section>
-  <section class="about panel" id="about"><div class="section-kicker"><span>01. ABOUT ME</span><small>ABOUT</small></div><div class="about-image visual-image"><div class="image-orange"></div></div><h2 class="serif">Selangkah demi<br>selangkah, menuju<br>versi terbaik.</h2><div class="about-description"><p>Saya adalah mahasiswa Teknik Informatika Universitas Negeri Surabaya (UNESA), angkatan 2026. Saya tertarik pada pengembangan perangkat lunak, khususnya pada teknologi web, mobile, dan IoT. Saya percaya teknologi bukan hanya soal kode, tetapi juga tentang bagaimana kita bisa memberikan manfaat nyata bagi banyak orang.</p></div><div class="about-facts"><div><i>♧</i><span>PENDIDIKAN<br><b>S1 Teknik Informatika<br>(UNESA)</b></span></div><div><i>⌖</i><span>DOMISILI<br><b>Sidoarjo,<br>Jawa Timur</b></span></div><div><i>↗</i><span>TERUS BELAJAR<br><b>Terus berkembang,<br>terus memberi dampak.</b></span></div></div><div class="side-label">ABOUT ME</div></section>
-  <section class="skills panel" id="skills"><div class="section-kicker"><span>02. WHAT I CAN DO</span><small>SKILLS</small></div><h2 class="serif">Kemampuan<br>yang saya kuasai.</h2><p class="muted">Berikut adalah teknologi dan tools yang saya kuasai dan gunakan dalam berbagai proyek yang pernah saya kerjakan.</p><div class="skill-list"><div><i>▣</i><span><b>Frontend</b><small>React · Vite · HTML · CSS · JavaScript</small></span></div><div><i>⌘</i><span><b>Backend</b><small>Python · FastAPI · Node.js · Express.js</small></span></div><div><i>▤</i><span><b>Database</b><small>MySQL · PostgreSQL</small></span></div><div><i>◉</i><span><b>Mobile Development</b><small>Android · WebView</small></span></div><div><i>⬡</i><span><b>IoT & Hardware</b><small>ESP32 · RFID · LCD · Sensor</small></span></div><div><i>⚙</i><span><b>Tools & DevOps</b><small>Git · Docker · Linux · Nginx</small></span></div></div><div class="side-label">SKILLS</div></section>
-  <section class="projects panel" id="projects"><div class="section-kicker"><span>03. PROJECTS</span><small>SELECTED WORK</small></div><h2 class="serif">Karya yang<br>pernah saya kerjakan.</h2><p class="muted project-intro">Beberapa proyek pilihan yang menunjukkan kemampuan dan pengalaman saya dalam mengembangkan sistem dan aplikasi.</p><div class="project-grid"><article class="project-card"><div class="project-image spp"><span>01 / WEB & ANDROID</span><div class="device-pair"><div class="device laptop"><div class="screen">SPP<br><b>TPI</b><hr>Dashboard · Pembayaran</div></div><div class="device phone"><div class="screen">SPP<br><b>TPI</b><hr>Tagihan<br>Riwayat</div></div></div></div><h3>SPP TPI</h3><b class="project-sub">Web App & Android App</b><p>Sistem pembayaran SPP sekolah yang dikembangkan bersama tim AVENALOKA.</p><div class="tags"><span>Python</span><span>React</span><span>FastAPI</span><span>PostgreSQL</span></div><a href="https://play.google.com/store/apps/details?id=id.sch.tpi.spp" target="_blank" rel="noreferrer">LIHAT APLIKASI ↗</a></article><article class="project-card"><div class="project-image baca"><span>02 / WEBSITE</span><div class="browser-art"><div class="browser-bar">● ● ●</div><div class="browser-body"><b>RuangBaca</b><div class="book-row"><i></i><i></i><i></i></div><small>Temukan bacaan favoritmu</small></div></div></div><h3>RuangBaca</h3><b class="project-sub">Website</b><p>Website perpustakaan digital (proyek kelompok IMK), dengan pencarian, kategori, dan alur peminjaman.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="https://imkkel1-after.netlify.app/" target="_blank" rel="noreferrer">KUNJUNGI WEBSITE ↗</a></article><article class="project-card"><div class="project-image iot"><span>03 / IOT PROJECT</span><div class="board"><i></i><b>ESP32</b><small>RFID · RC522</small><div class="pins"></div></div></div><h3>Smart Attendance RFID</h3><b class="project-sub">IoT Project</b><p>Sistem absensi berbasis RFID dengan ESP32 (sudah selesai), validasi backend, LCD, dan buzzer.</p><div class="tags"><span>ESP32</span><span>RFID</span><span>LCD</span><span>MySQL</span></div></article></div><div class="side-label">PROJECTS</div></section>
-  <section class="experience panel" id="experience"><div class="section-kicker"><span>04. EXPERIENCE</span><small>JOURNEY</small></div><h2 class="serif">Pengalaman<br>dan organisasi.</h2><div class="timeline"><div><time>2025 — 2026</time><b>Sekretaris Utama</b><small>Pondok Pesantren At-Tibyan</small></div><div><time>2021 — 2025</time><b>Bendahara</b><small>Pondok Pesantren At-Tibyan · Periode 2021/22, 2022/23, dan 2024/25</small></div><div><time>2026 — SEKARANG</time><b>Universitas Negeri Surabaya</b><small>Mahasiswa S1 Teknik Informatika</small></div></div><div class="experience-image"></div><div class="side-label">EXPERIENCE</div></section>
-  <section class="achievement panel"><div class="section-kicker"><span>05. ACHIEVEMENT</span><small>PARTICIPATION</small></div><h2 class="serif">Partisipasi dalam<br>Olimpiade Kimia Nasional.</h2><p class="muted">Mengikuti Olimpiade Kimia Nasional (OSN) sebanyak dua kali selama masa SMA, yaitu pada kelas 10 dan 11.</p><div class="awards"><div><time>2021</time><b>Olimpiade Kimia Nasional</b><small>Keluarga Mahasiswa Kimia FMIPA UGM<br>23 Oktober & 6–7 November 2021 · Peserta</small></div><div><time>2022</time><b>Olimpiade Nasional Bidang Kimia</b><small>Olimpiade Nasional Yuk Belajar<br>2 Oktober 2022 · Predikat BC (Cukup)</small></div></div><div class="side-label">ACHIEVEMENT</div></section>
-  <section class="contact panel" id="contact"><div class="section-kicker"><span>06. CONTACT</span><small>LET'S TALK</small></div><h2 class="serif">Mari<br>terhubung.</h2><p class="muted">Jika kamu memiliki pertanyaan, kolaborasi, atau sekadar ingin berkenalan, jangan ragu untuk menghubungi saya.</p><div class="contact-links"><a href="mailto:rafieahmadanwari08@gmail.com">✉ <span>rafieahmadanwari08@gmail.com</span></a><a href="https://www.linkedin.com/in/rafie-ahmad-anwari-b606a536a/" target="_blank" rel="noreferrer">in <span>linkedin.com/in/rafie-ahmad-anwari-b606a536a/</span></a><a href="https://github.com/raffmad" target="_blank" rel="noreferrer">◉ <span>github.com/raffmad</span></a></div><div class="contact-bottom"><span>RA <small>Rafie Ahmad Anwari<br>Mahasiswa Teknik Informatika</small></span><nav><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav><small>© 2026 RAFIE AHMAD ANWARI<br>ALL RIGHTS RESERVED.</small></div></section>
-</main><script src="script.js"></script>
-</body></html>
+
+  <!-- HERO -->
+  <section class="hero panel" id="home">
+    <div class="hero-top">
+      <span>PORTFOLIO / 2026</span>
+      <span>INFORMATICS STUDENT</span>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow">↳ HELLO, I'M</p>
+
+        <h1>
+          RAFIE<br>
+          AHMAD<br>
+          ANWARI<span class="slash">/</span>
+        </h1>
+
+        <h2>Mahasiswa Teknik Informatika</h2>
+
+        <p class="intro">
+          Saya tertarik pada pengembangan teknologi untuk menciptakan
+          solusi yang berdampak, khususnya di bidang web, mobile, dan IoT.
+        </p>
+
+        <a class="round-link" href="#about">
+          <span>↗</span> Jelajahi Portofolio
+        </a>
+      </div>
+
+      <div class="hero-art" aria-label="Komposisi visual arsitektur abstrak">
+        <div class="art-orbit"></div>
+        <div class="art-shape shape-a"></div>
+        <div class="art-shape shape-b"></div>
+        <div class="art-photo photo-one"></div>
+        <div class="art-photo photo-two"></div>
+        <div class="orange-block"></div>
+        <div class="code-mark">&lt;/&gt;</div>
+        <div class="art-caption">CODE<br>BUILD<br>IMPROVE</div>
+      </div>
+    </div>
+
+    <div class="hero-bottom">
+      <span>SCROLL</span>
+      <span class="line"></span>
+      <span>01 / 07</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about panel" id="about">
+    <div class="section-kicker">
+      <span>01. ABOUT ME</span>
+      <small>ABOUT</small>
+    </div>
+
+    <div class="about-image visual-image">
+      <div class="image-orange"></div>
+    </div>
+
+    <h2 class="serif">
+      Selangkah demi<br>
+      selangkah, menuju<br>
+      versi terbaik.
+    </h2>
+
+    <div class="about-description">
+      <p>
+        Saya adalah mahasiswa Teknik Informatika Universitas Negeri
+        Surabaya (UNESA), angkatan 2026. Saya tertarik pada pengembangan
+        perangkat lunak, khususnya pada teknologi web, mobile, dan IoT.
+        Saya percaya teknologi bukan hanya soal kode, tetapi juga tentang
+        bagaimana kita bisa memberikan manfaat nyata bagi banyak orang.
+      </p>
+    </div>
+
+    <div class="about-facts">
+      <div>
+        <i>♧</i>
+        <span>PENDIDIKAN<br>
+          <b>S1 Teknik Informatika<br>(UNESA)</b>
+        </span>
+      </div>
+
+      <div>
+        <i>⌖</i>
+        <span>DOMISILI<br>
+          <b>Sidoarjo,<br>Jawa Timur</b>
+        </span>
+      </div>
+
+      <div>
+        <i>↗</i>
+        <span>TERUS BELAJAR<br>
+          <b>Terus berkembang,<br>terus memberi dampak.</b>
+        </span>
+      </div>
+    </div>
+
+    <div class="side-label">ABOUT ME</div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills panel" id="skills">
+    <div class="section-kicker">
+      <span>02. WHAT I CAN DO</span>
+      <small>SKILLS</small>
+    </div>
+
+    <h2 class="serif">
+      Kemampuan<br>
+      yang saya kuasai.
+    </h2>
+
+    <p class="muted">
+      Berikut adalah teknologi dan tools yang saya kuasai dan gunakan
+      dalam berbagai proyek yang pernah saya kerjakan.
+    </p>
+
+    <div class="skill-list">
+      <div>
+        <i>▣</i>
+        <span>
+          <b>Frontend</b>
+          <small>React · Vite · HTML · CSS · JavaScript</small>
+        </span>
+      </div>
+
+      <div>
+        <i>⌘</i>
+        <span>
+          <b>Backend</b>
+          <small>Python · FastAPI · Node.js · Express.js</small>
+        </span>
+      </div>
+
+      <div>
+        <i>▤</i>
+        <span>
+          <b>Database</b>
+          <small>MySQL · PostgreSQL</small>
+        </span>
+      </div>
+
+      <div>
+        <i>◉</i>
+        <span>
+          <b>Mobile Development</b>
+          <small>Android · WebView</small>
+        </span>
+      </div>
+
+      <div>
+        <i>⬡</i>
+        <span>
+          <b>IoT & Hardware</b>
+          <small>ESP32 · RFID · LCD · Sensor</small>
+        </span>
+      </div>
+
+      <div>
+        <i>⚙</i>
+        <span>
+          <b>Tools & DevOps</b>
+          <small>Git · Docker · Linux · Nginx</small>
+        </span>
+      </div>
+    </div>
+
+    <div class="side-label">SKILLS</div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects panel" id="projects">
+    <div class="section-kicker">
+      <span>03. PROJECTS</span>
+      <small>SELECTED WORK</small>
+    </div>
+
+    <h2 class="serif">
+      Karya yang<br>
+      pernah saya kerjakan.
+    </h2>
+
+    <p class="muted project-intro">
+      Beberapa proyek pilihan yang menunjukkan kemampuan dan
+      pengalaman saya dalam mengembangkan sistem dan aplikasi.
+    </p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-image spp">
+          <span>01 / WEB & ANDROID</span>
+
+          <div class="device-pair">
+            <div class="device laptop">
+              <div class="screen">
+                SPP<br>
+                <b>TPI</b>
+                <hr>
+                Dashboard · Pembayaran
+              </div>
+            </div>
+
+            <div class="device phone">
+              <div class="screen">
+                SPP<br>
+                <b>TPI</b>
+                <hr>
+                Tagihan<br>
+                Riwayat
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>SPP TPI</h3>
+        <b class="project-sub">Web App & Android App</b>
+
+        <p>
+          Sistem pembayaran SPP sekolah yang dikembangkan bersama
+          tim AVENALOKA.
+        </p>
+
+        <div class="tags">
+          <span>Python</span>
+          <span>React</span>
+          <span>FastAPI</span>
+          <span>PostgreSQL</span>
+        </div>
+
+        <a href="https://play.google.com/store/apps/details?id=id.sch.tpi.spp"
+           target="_blank" rel="noreferrer">
+          LIHAT APLIKASI ↗
+        </a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image baca">
+          <span>02 / WEBSITE</span>
+
+          <div class="browser-art">
+            <div class="browser-bar">● ● ●</div>
+
+            <div class="browser-body">
+              <b>RuangBaca</b>
+
+              <div class="book-row">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
+              <small>Temukan bacaan favoritmu</small>
+            </div>
+          </div>
+        </div>
+
+        <h3>RuangBaca</h3>
+        <b class="project-sub">Website</b>
+
+        <p>
+          Website perpustakaan digital (proyek kelompok IMK),
+          dengan pencarian, kategori, dan alur peminjaman.
+        </p>
+
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <a href="https://imkkel1-after.netlify.app/"
+           target="_blank" rel="noreferrer">
+          KUNJUNGI WEBSITE ↗
+        </a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image iot">
+          <span>03 / IOT PROJECT</span>
+
+          <div class="board">
+            <i></i>
+            <b>ESP32</b>
+            <small>RFID · RC522</small>
+            <div class="pins"></div>
+          </div>
+        </div>
+
+        <h3>Smart Attendance RFID</h3>
+        <b class="project-sub">IoT Project</b>
+
+        <p>
+          Sistem absensi berbasis RFID dengan ESP32 (sudah selesai),
+          validasi backend, LCD, dan buzzer.
+        </p>
+
+        <div class="tags">
+          <span>ESP32</span>
+          <span>RFID</span>
+          <span>LCD</span>
+          <span>MySQL</span>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="side-label">PROJECTS</div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience panel" id="experience">
+    <div class="section-kicker">
+      <span>04. EXPERIENCE</span>
+      <small>JOURNEY</small>
+    </div>
+
+    <h2 class="serif">
+      Pengalaman<br>
+      dan organisasi.
+    </h2>
+
+    <div class="timeline">
+      <div>
+        <time>2025 — 2026</time>
+        <b>Sekretaris Utama</b>
+        <small>Pondok Pesantren At-Tibyan</small>
+      </div>
+
+      <div>
+        <time>2021 — 2025</time>
+        <b>Bendahara</b>
+        <small>
+          Pondok Pesantren At-Tibyan · Periode 2021/22,
+          2022/23, dan 2024/25
+        </small>
+      </div>
+
+      <div>
+        <time>2026 — SEKARANG</time>
+        <b>Universitas Negeri Surabaya</b>
+        <small>Mahasiswa S1 Teknik Informatika</small>
+      </div>
+    </div>
+
+    <div class="experience-image"></div>
+    <div class="side-label">EXPERIENCE</div>
+  </section>
+
+  <!-- ACHIEVEMENT -->
+  <section class="achievement panel">
+    <div class="section-kicker">
+      <span>05. ACHIEVEMENT</span>
+      <small>PARTICIPATION</small>
+    </div>
+
+    <h2 class="serif">
+      Partisipasi dalam<br>
+      Olimpiade Kimia Nasional.
+    </h2>
+
+    <p class="muted">
+      Mengikuti Olimpiade Kimia Nasional (OSN) sebanyak dua kali
+      selama masa SMA, yaitu pada kelas 10 dan 11.
+    </p>
+
+    <div class="awards">
+      <div>
+        <time>2021</time>
+        <b>Olimpiade Kimia Nasional</b>
+        <small>
+          Keluarga Mahasiswa Kimia FMIPA UGM<br>
+          23 Oktober & 6–7 November 2021 · Peserta
+        </small>
+      </div>
+
+      <div>
+        <time>2022</time>
+        <b>Olimpiade Nasional Bidang Kimia</b>
+        <small>
+          Olimpiade Nasional Yuk Belajar<br>
+          2 Oktober 2022 · Predikat BC (Cukup)
+        </small>
+      </div>
+    </div>
+
+    <div class="side-label">ACHIEVEMENT</div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact panel" id="contact">
+    <div class="section-kicker">
+      <span>06. CONTACT</span>
+      <small>LET'S TALK</small>
+    </div>
+
+    <h2 class="serif">
+      Mari<br>
+      terhubung.
+    </h2>
+
+    <p class="muted">
+      Jika kamu memiliki pertanyaan, kolaborasi, atau sekadar ingin
+      berkenalan, jangan ragu untuk menghubungi saya.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:rafieahmadanwari08@gmail.com">
+        ✉ <span>rafieahmadanwari08@gmail.com</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/rafie-ahmad-anwari-b606a536a/"
+         target="_blank" rel="noreferrer">
+        in <span>linkedin.com/in/rafie-ahmad-anwari-b606a536a/</span>
+      </a>
+
+      <a href="https://github.com/raffmad"
+         target="_blank" rel="noreferrer">
+        ◉ <span>github.com/raffmad</span>
+      </a>
+    </div>
+
+    <div class="contact-bottom">
+      <span>
+        RA
+        <small>
+          Rafie Ahmad Anwari<br>
+          Mahasiswa Teknik Informatika
+        </small>
+      </span>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <small>
+        © 2026 RAFIE AHMAD ANWARI<br>
+        ALL RIGHTS RESERVED.
+      </small>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
